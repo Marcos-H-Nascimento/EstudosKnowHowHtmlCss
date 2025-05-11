@@ -1,0 +1,67 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url(/Design\ sem\ nome\ \(2\).png);
+    padding:100px;
+}
+
+.gen{
+    border-radius: 80px;
+    box-shadow: 0px 0px 10px 1px rgb(106, 171, 247);
+    width: 150px;
+    transition: .35s;
+}
+
+.gen:hover{
+    width: 160px;
+    box-shadow: 0px 0px 50px 5px rgb(106, 171, 247);    
+
+}
+
+h1{
+    color: white;
+}
+
+.block{
+    background-image: url(/Design\ sem\ nome\ \(4\).png);
+    border-radius: 20px;
+    justify-self: center;
+    align-items: center;  
+    width: 500px;
+    box-shadow: 0px 0px 10px 1px black;
+    height: 600px;
+    text-align: center;
+}
+
+form{
+    justify-self: center;
+    padding-top: 40px;
+}
+
+input{
+    
+    margin: 10px;
+}
+
+.text{
+    padding: 20px 15px;
+    border-radius: 50px;
+}
+
+.submit{
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: none;
+    box-shadow: 0px 0px 5px 1px black;
+    font-size: 20px;
+    color: white;
+    background-image:url(/Design\ sem\ nome\ \(4\).png) ;
+    background-position: center;
+    border-radius: 80px;
+    margin: 50px;
+    padding: 20px 150px;
+    transition: .35s;
+}
+
+.submit:hover{
+    box-shadow: 0px 0px 10px 1px white;
+    padding: 30px 160px;
+    }

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <link rel="stylesheet" href="/css/index.css">
+</head>
+<body>
+    <h2>Formularios HTML</h2>
+    <form>
+        <div>
+            <label>Nome:</label>
+        <input type="text">
+        </div>
+    </form>
+
+        <br>
+        <br>
+        <!-- Action and Method -->
+        <form action="register.php" method="post">
+        <!-- Atribute Name -->
+         <div>
+            <label for="">idade:</label>
+            <input type="text" name="age">
+         </div>
+         <!-- atribute label for -->
+          <div>
+            <label for="age-2">idade:</label>
+            <input type="text" name="age-2">
+          </div>
+          <!-- Sending data from forms -->
+           <div>
+            <label for="sub">Submit</label>
+            <input type="submit" name="sub" value="Cadastrar">
+           </div>
+           <div>
+            <input type="email" placeholder="email">
+            <input type="password" placeholder="password">
+            <input type="radio"> <input type="radio">
+        </div>
+
+        <div>
+            <input type="search">
+        </div>
+    </form>
+</body>
+</html>
